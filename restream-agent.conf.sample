@@ -1,0 +1,24 @@
+server: {
+  host: "localhost"
+  port: 5654
+  reconnect-timeout: 5
+}
+
+auth: {
+  name: "source1"
+  description: "test source"
+  token: ""
+}
+
+streamers: (
+  {
+    name: "Bars"
+    url: "rtsp://ipcam.stream:8554/bars"
+    description: "rtsp://ipcam.stream:8554/bars"
+  }
+)
+
+debug: {
+#  log-level: 3
+#  lws-log-level: 2
+}

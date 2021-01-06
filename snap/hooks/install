@@ -1,0 +1,3 @@
+#!/bin/sh -e
+
+cp "$SNAP/etc/restream-agent.conf.sample" "$SNAP_COMMON/restream-agent.conf"
